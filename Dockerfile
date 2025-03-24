@@ -1,4 +1,4 @@
-FROM --platform=arm64 node:slim
+FROM --platform=arm64 node:20.9.0-alpine
 
 WORKDIR /usr/src/app
 
