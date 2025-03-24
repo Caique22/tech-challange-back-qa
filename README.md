@@ -64,8 +64,8 @@ Para obter uma cópia local instalada e funcionando, siga estas etapas simples d
 
 1. Clone o repositório
    ```sh
-   git clone https://github.com/Pirdo/tech-challange-back-qa
-   ```
+   https://github.com/Caique22/tech-challange-back-qa   
+  ```
 2. Instale as dependencias
 
    ```sh
@@ -85,7 +85,14 @@ Para obter uma cópia local instalada e funcionando, siga estas etapas simples d
 
 | Name                            | RM                      |
 | -----------------------------   | -------------------------- |
-| <h3>Gabriel Pires </h3>       | <h3> TBD </h3> |
+| <h3>Gabriel Pires </h3>       | <h3> RM360472
+
+
+
+
+
+
+ </h3> |
 | <h3>Caique Dutra Santos </h3> | <h3> RM360210 </h3>        |
 
 
