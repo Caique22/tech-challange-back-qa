@@ -1,13 +1,11 @@
-FROM --platform=arm64 node:20.9.0-alpine
+FROM node:14
 
-WORKDIR /usr/src/app
+WORKDIR /app
 
-COPY package*.json ./
-
+COPY package.json /app
 RUN npm install
 
-COPY . .
+COPY . /app
 
-EXPOSE 3000
 
 CMD ["npm", "start"]
