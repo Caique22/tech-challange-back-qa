@@ -19,8 +19,8 @@
     <li>
       <a href="#como-comecar">Como Começar</a>
       <ul>
-        <li><a href="#pre-requesitos">Pre-requesitos</a></li>
-        <li><a href="#instalacao">Instalação</a></li>
+        <li><a href="#pre-requisitos">Pre-requisitos</a></li>
+        <li><a href="#instalacao">Instalacao</a></li>
       </ul>
     </li>
     <li><a href="#experiencia-e-fluxo-de-trabalho">Experiência e fluxo de trabalho</a></li>
@@ -60,14 +60,14 @@ A solução proposta consiste em uma plataforma para gestão de postagens educac
 Este é um exemplo de como você pode dar instruções sobre como configurar seu projeto localmente.
 Para obter uma cópia local instalada e funcionando, siga estas etapas simples de exemplo.
 
-## Pré-requisitos
+## Pre-requisitos
 
 - NodeJS
 - Docker
 - Git
 - Postman
 
-## Instalação
+## Instalacao
 
 1. Clone o repositório
    ```sh
@@ -97,10 +97,9 @@ Para obter uma cópia local instalada e funcionando, siga estas etapas simples d
 
 1- Faça o upload do arquivo no seu Postman
 <br />
-
   <img src="src/images/file.png" alt="Logo" width="720" height="420" >
-
 <br />
+
 2- Crie 1 ou mais posts usando o endpoint /POST
 
 | Metodo | Endpoint      |
@@ -110,6 +109,7 @@ Para obter uma cópia local instalada e funcionando, siga estas etapas simples d
   <img src="src/images/create-post.png" alt="Logo" width="720" height="420" >
 
 <br />
+
 3- Visualize todos os posts usando o endpoint /GET /posts
 
 | Metodo | Endpoint |
@@ -118,6 +118,7 @@ Para obter uma cópia local instalada e funcionando, siga estas etapas simples d
 
   <img src="src/images/get-all.png" alt="Logo" width="720" height="420" >
 <br />
+
 4- Visualize um post específico.
 
 | Metodo | Endpoint         |
@@ -125,8 +126,8 @@ Para obter uma cópia local instalada e funcionando, siga estas etapas simples d
 | GET    | /posts/getOne/id |
 
   <img src="src/images/get-post.png" alt="Logo" width="720" height="420" >
-
 <br />
+
 5- Atualize um post específico.
 
 | Metodo | Endpoint       |
@@ -134,8 +135,8 @@ Para obter uma cópia local instalada e funcionando, siga estas etapas simples d
 | PUT    | /posts/edit/id |
 
   <img src="src/images/update-post.png" alt="Logo" width="720" height="420" >
-
 <br />
+
 6- Delete um post específico.
 
 | Metodo | Endpoint         |
