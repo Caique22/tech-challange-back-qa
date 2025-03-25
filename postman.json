@@ -1,0 +1,169 @@
+{
+  "info": {
+    "_postman_id": "wrk_44b4f1f2d41c4db7b0e2356170a3a293",
+    "name": "Fiap",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Create Post",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "User-Agent",
+            "value": "insomnia/11.0.0"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"titulo\": \"teste titulo\",\n  \"conteudo\": \"estamos testando esse post\",\n  \"autor\": \"Gabriel Pires\"\n}"
+        },
+        "url": {
+          "raw": "localhost:3000/posts/create",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["posts", "create"]
+        }
+      }
+    },
+    {
+      "name": "Get All Posts",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "insomnia/11.0.0"
+          }
+        ],
+        "url": {
+          "raw": "localhost:3000/posts/",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["posts"]
+        }
+      }
+    },
+    {
+      "name": "Get One Post",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "insomnia/11.0.0"
+          }
+        ],
+        "url": {
+          "raw": "localhost:3000/posts/getOne/1",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["posts", "getOne", "1"]
+        }
+      }
+    },
+    {
+      "name": "Edit Post",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "User-Agent",
+            "value": "insomnia/11.0.0"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"titulo\": \"teste de edit\",\n  \"conteudo\": \"estamos testando esse edit busca\",\n  \"autor\": \"Gabriel Pires\"\n}"
+        },
+        "url": {
+          "raw": "localhost:3000/posts/edit/1",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["posts", "edit", "1"]
+        }
+      }
+    },
+    {
+      "name": "Delete Post",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "insomnia/11.0.0"
+          }
+        ],
+        "url": {
+          "raw": "localhost:3000/posts/delete/999",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["posts", "delete", "999"]
+        }
+      }
+    },
+    {
+      "name": "Get Last 5 days Posts",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "insomnia/11.0.0"
+          }
+        ],
+        "url": {
+          "raw": "localhost:3000/posts/last5",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["posts", "last5"]
+        }
+      }
+    },
+    {
+      "name": "Search for Posts",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "User-Agent",
+            "value": "insomnia/11.0.0"
+          }
+        ],
+        "url": {
+          "raw": "localhost:3000/posts/search?keyword=busca%20titulo",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["posts", "search"],
+          "query": [
+            {
+              "key": "keyword",
+              "value": "busca titulo"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "environment": {
+    "name": "Base Environment",
+    "values": []
+  }
+}
+

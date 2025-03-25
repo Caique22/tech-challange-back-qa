@@ -10,7 +10,7 @@ const {
 
 const sequelize = new Sequelize({
     dialect: 'postgres',
-    host: POSTGRE_HOST,
+    host: "localhost",
     port: POSTGRE_PORT,
     database: POSTGRE_DATABASE,
     username: POSTGRE_USERNAME,
