@@ -45,6 +45,7 @@ A solução proposta consiste em uma plataforma para gestão de postagens educac
 ### Built With
 
 - [NodeJS][Node-url]
+- [Postgres][Postgres-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -59,7 +60,7 @@ A solução proposta consiste em uma plataforma para gestão de postagens educac
 Este é um exemplo de como você pode dar instruções sobre como configurar seu projeto localmente.
 Para obter uma cópia local instalada e funcionando, siga estas etapas simples de exemplo.
 
-## Pré-requesitos
+## Pré-requisitos
 
 - NodeJS
 - Docker
@@ -142,8 +143,8 @@ Para obter uma cópia local instalada e funcionando, siga estas etapas simples d
 | DELETE | /posts/delete/id |
 
   <img src="src/images/delete-post.png" alt="Logo" width="720" height="420" >
-
 <br />
+
 7- Visualize os últimos 5 posts.
 
 | Metodo | Endpoint     |
@@ -188,4 +189,5 @@ Criação de scripts para integração com GitHub Actions, pois o grupo nunca ti
 | <h3>Caique Dutra Santos </h3> | <h3> RM360210 </h3> |
 
 [Node-url]: https://nodejs.org/en
+[Postgres-url]: https://www.postgresql.org/
 [Node]: https://img.shields.io/badge/Node-js-green
